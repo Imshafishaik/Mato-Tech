@@ -1,0 +1,45 @@
+.matowin_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004896;
+    padding: 0 50px;
+    height: 100px;
+    z-index: 100;
+    /* border-radius: 0 0 25px 25px; */
+    /* position: fixed;
+    width: 100%;
+    z-index: 9999;
+    transition: all .4s; */
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all .4s;
+}
+
+/* #EAF2F8; */
+.matowin_logo img{
+    height: 80px;
+    width: 110px;
+    display: flex;
+}
+
+@media screen and (max-width:991px){
+    .matowin_header{
+        padding: 0 20px;
+        height: 80px;
+        /* border-radius: 0 0 25px 25px; */
+    }    
+
+    .matowin_logo img{
+        height: 65px;
+        width: 90px;
+        display: flex;
+    }
+    
+    
+}

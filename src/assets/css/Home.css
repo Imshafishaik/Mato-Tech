@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+.homeSlider .slider_img img{
+	width: 100vw;
+	height: 85vh;
+}
+
+.homeSlider .left_btn{
+	position: absolute;
+	top: 44%;
+	left: 20px;
+	z-index: 9;
+}
+
+.homeSlider .right_btn{
+    position: absolute;
+    bottom: 48%;
+	right: 20px;
+}
+
+.matowin_home{
+    padding: 0 50px;
+    /* background: #0052aa; */
+	background-image: url('https://templatemo.com/templates/templatemo_589_lugx_gaming/assets/images/banner-bg.jpg');
+    height: 105vh;
+    opacity: 1;
+	border-radius: 0 0 150px 150px;
+}
+
+.matowin_home h1{
+    position: absolute;
+    bottom: 500px;
+    color: #fff;
+}
+
+.matowin_title{
+    position: absolute;
+    bottom: 150px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.content {
+	position: relative;
+}
+
+.content h2 {
+	color: #fff;
+	font-size: 3em;
+	position: absolute;
+	/* transform: translate(-50%, -50%); */
+}
+
+.content h2:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: 2px #fff;
+}
+
+.content h2:nth-child(2) {
+	color: #fff;
+	animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+			0% 45%,
+			16% 44%,
+			33% 50%,
+			54% 60%,
+			70% 61%,
+			84% 59%,
+			100% 52%,
+			100% 100%,
+			0% 100%
+		);
+	}
+
+	50% {
+		clip-path: polygon(
+			0% 60%,
+			15% 65%,
+			34% 66%,
+			51% 62%,
+			67% 50%,
+			84% 45%,
+			100% 46%,
+			100% 100%,
+			0% 100%
+		);
+	}
+}
+
+@media screen and (max-width: 991px) {
+    .matowin_title{
+        position: absolute;
+        bottom: 120px;
+        font-size: 30px;
+    }
+
+    .content h2 {
+        color: #fff;
+        font-size: 2em;
+        position: absolute;
+        /* transform: translate(-50%, -50%); */
+    }
+
+    .matowin_home h1{
+        bottom: 430px;
+    }
+
+    .matowin_home{
+        padding: 0 20px;
+		height: 95vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+	.homeSlider .slider_img img{
+		width: 100vw;
+		height: 40vh;
+	}
+
+	.homeSlider .left_btn{
+		position: absolute;
+		top: 39%;
+		left: 20px;
+		z-index: 9;
+	}
+	
+	.homeSlider .right_btn{
+		position: absolute;
+		bottom: 45%;
+		right: 20px;
+	}
+}
