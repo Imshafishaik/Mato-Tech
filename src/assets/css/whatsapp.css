@@ -1,0 +1,12 @@
+.Whatsapp-Button-Container{
+    width:48px;
+    position: fixed;
+    z-index: 9998;
+    bottom: 30px;
+    left: 30px
+}
+
+
+.Whatsapp-Button-Container img{
+    width: 100%;
+}
