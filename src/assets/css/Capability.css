@@ -1,0 +1,132 @@
+.capability{
+    display: flex;
+    gap: 50px;
+    /* justify-content: space-around; */
+    padding: 50px 0;
+}
+
+.capability_left_blk{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d6d6d;
+    border-radius: 0 150px 150px 0;
+    animation: 2s slide-right;
+}
+
+@keyframes slide-right {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+
+.capability_right_blk{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d6d6d;
+    color: #111;
+    padding: 50px;
+    border-radius: 150px 0 0 150px;
+    animation: 3s slide-left;
+}
+
+.capability_body_text1{
+    display: flex;
+}
+
+.capability_body_text2{
+    display: flex;
+}
+
+.capability_body_text3{
+    display: flex;
+}
+
+.capability_body_inner_text1 p{
+    width: 600px
+}
+
+.capability_number_wrapper p{
+    height: 100px;
+    width: 100px;
+    background-color: #6d6d6d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #fff;
+    border-color: 1px solid #6d6d6d;
+    font-weight: 800;
+}
+
+.capability_number_wrapper{
+    height: 104px;
+    width: 104px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.capability_number{
+    height: 108px;
+    width: 108px;
+    background-color: #6d6d6d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.capability_body_inner_text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+@keyframes slide-left {
+from {
+    margin-left: 150%;
+}
+to {
+    margin-left: 0%;
+}
+}
+
+.capability_heading h1{
+    color: #fff;
+}
+
+@media screen and (max-width:768px) {
+    .capability{
+        flex-direction: column;
+    }
+
+    .capability_right_blk{
+        width: 100%;
+        padding: 50px 10px 50px 50px;
+    }
+
+    .capability_body_inner_text1 p{
+        width: 100%;
+    }
+
+    .capability_left_blk{
+        width: 100%;
+    }
+
+    .capability_heading h1{
+        padding-left: 50px;
+    }
+}

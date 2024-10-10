@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 // import Infrastructure from '../components/Infrastructure'
 // import OurClients from '../components/OurClients'
 // import OurMachinery from '../components/OurMachinery'
-// import ListMachinery from '../components/ListMachinery'
+import ListMachinery from '../components/ListMachinery'
 import Capabilities from '../components/Capabilities'
 import Mission from '../components/Missions'
 import AboutPromoters from '../components/AboutPromoters'
@@ -25,6 +25,7 @@ const MatowinPage = () => {
         <Home />
         <AboutUs />
         <Products />
+        <ListMachinery />
         <Capabilities />
         <Mission />
         <AboutPromoters />
