@@ -14,6 +14,7 @@ import Capabilities from '../components/Capabilities'
 import Mission from '../components/Missions'
 import AboutPromoters from '../components/AboutPromoters'
 import Training from '../components/Training'
+import WhatsappButton from '../components/WhatsappButton'
 
 const MatowinPage = () => {
   return (
@@ -31,6 +32,7 @@ const MatowinPage = () => {
         <AboutPromoters />
         <Training />
         <Footer />
+        {/* <WhatsappButton /> */}
     </div>
   )
 }
