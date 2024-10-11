@@ -7,15 +7,17 @@ import Products from '../components/Products'
 import OurClients from '../components/OurClients'
 import OurInfrastructure from '../components/OurInfrastructure'
 // import Footer from '../components/Footer'
+import Footer from '../components/Footer'
 // import Products from '../components/Products'
 // import Infrastructure from '../components/Infrastructure'
 // import OurClients from '../components/OurClients'
 // import OurMachinery from '../components/OurMachinery'
-// import ListMachinery from '../components/ListMachinery'
-// import Capabilities from '../components/Capabilities'
-// import Mission from '../components/Mission'
-// import AboutPromoters from '../components/AboutPromoters'
-// import Training from '../components/Training'
+import ListMachinery from '../components/ListMachinery'
+import Capabilities from '../components/Capabilities'
+import Mission from '../components/Missions'
+import AboutPromoters from '../components/AboutPromoters'
+import Training from '../components/Training'
+import WhatsappButton from '../components/WhatsappButton'
 
 const MatowinPage = () => {
   return (
@@ -30,6 +32,13 @@ const MatowinPage = () => {
         <AboutUs />
         <Products />
         <OurInfrastructure />
+        <ListMachinery />
+        <Capabilities />
+        <Mission />
+        <AboutPromoters />
+        <Training />
+        <Footer />
+        {/* <WhatsappButton /> */}
     </div>
   )
 }

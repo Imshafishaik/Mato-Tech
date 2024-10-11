@@ -1,0 +1,92 @@
+/* .mato_promoters{
+    height: 50vh;
+}
+
+.mato_promoters h1{
+
+}
+
+.promoter_body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.promoter_body1{
+    width: 50%;
+}
+
+.promoter_body2{
+    width: 50%;
+} */
+
+.mission_contents{
+    display: flex;
+    background-color: #6d6d6d;
+    border-radius: 8px;
+}
+
+
+.mission_dividers{
+    height: 217px;
+    width: 4px;
+    color: #fff;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.mato_missions{
+    height: 50vh;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.mato_missions h1{
+    color: #6d6d6d;
+    font-size: 33px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mission_content2{
+    width: 450px;
+    padding: 15px;
+}
+
+.mission_content2 h2{
+    color: #fff;
+    
+}
+
+.mission_content2 p{
+    color: #fff;
+}
+
+.mission_content_wrappers{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:786px) {
+    .mato_missions{
+        height: 100%;
+        padding: 20px;
+    }
+
+    .mission_contents{
+        flex-direction: column;
+    }
+
+    .mission_dividers{
+        height: 4px;
+        width: 100%;
+        color: #fff;
+        background-color: #fff;
+        margin: 0px;
+    }
+
+    .mission_content2{
+        width: 100%;
+    }
+}
