@@ -2,13 +2,13 @@
     height: 50vh;
     width: 100%;
     padding: 20px 0;
-    background-color: #6d6d6d;
+    background-color: #efefef;
     /* display: flex;
     justify-content: center; */
 }
 
 .mato_mission h1{
-    color: #fff;
+    color: black;
     font-size: 33px;
     text-align: center;
     margin-bottom: 10px;
@@ -18,13 +18,13 @@
     height: 55vh;
     width: 100%;
     padding: 20px 0;
-    background-color: #6d6d6d;
+    background-color: #efefef;
     /* display: flex;
     justify-content: center; */
 }
 
 .mato_mission1 h1{
-    color: #fff;
+    color: black;
     font-size: 33px;
     text-align: center;
     margin-bottom: 10px;
