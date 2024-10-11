@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Product1 from "../assets/images/product1.png"
 import Product2 from "../assets/images/product2.png"
 import Product3 from "../assets/images/product3.png"
@@ -8,6 +8,32 @@ import Product6 from "../assets/images/product6.png"
 import "../assets/css/products.css";
 
 const Products = () => {
+
+  const productsRef = useRef(null);
+
+  useEffect(() => {
+    const products = productsRef.current.querySelectorAll('.products');
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate');
+          } else {
+            entry.target.classList.remove('animate');
+          }
+        });
+      },
+      { threshold: 0.5 } // Trigger when 50% of the element is visible
+    );
+
+    products.forEach((image) => observer.observe(image));
+
+    return () => {
+      products.forEach((image) => observer.unobserve(image));
+    };
+  }, []);
+
   let products = [
     {
       id:1,
@@ -46,11 +72,15 @@ const Products = () => {
       image: Product6,
     }
   ]
+
   return (
-    <div className='products_list'>
+    <div className='products_list' ref={productsRef}>
+      
+      <h1>Our Products</h1>
+      <div className='products_lists'>
       {products?.map((item,i)=>{
         return (
-          <div key={i} className='products'>
+          <div key={i} className='products products_ani'>
             <div className='product'>
             <img src={item.image} alt={item.name} />
             <div className='products_details'>
@@ -61,6 +91,7 @@ const Products = () => {
           </div>
         )
       })}
+      </div>
     </div>
   )
 }

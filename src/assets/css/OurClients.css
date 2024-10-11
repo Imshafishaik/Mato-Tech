@@ -1,0 +1,70 @@
+.matowin_infra{
+    background-color: #0052aa;
+    width: 80vw;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 9;
+}
+
+.matowin_infra h1{
+    color: #fff;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.matowin_infra marquee{
+    color: #fff;
+    font-size: 30px;
+}
+
+.client_img{
+    text-align: center;
+}
+
+.client_img img{
+    width: 130px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.client_img p {
+    color: #fff;
+}
+
+.client_list{
+    display: flex;
+}
+
+.client_lists{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width:800px) {
+    .matowin_infra h1{
+        color: #fff;
+        text-align: center;
+        margin: 10px 0;
+        font-size: 20px;
+    }    
+
+    .matowin_infra marquee{
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .client_img{
+        text-align: center;
+    }
+
+    .client_img img{
+        width: 130px;
+        height: 80px;
+        border-radius: 8px;
+    }
+
+    .client_list{
+        display: flex;
+    }
+}

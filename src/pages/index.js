@@ -4,6 +4,8 @@ import Header from '../components/Header'
 import Home from '../components/Home'
 import AboutUs from '../components/AboutUs'
 import Products from '../components/Products'
+import OurClients from '../components/OurClients'
+import OurInfrastructure from '../components/OurInfrastructure'
 // import Footer from '../components/Footer'
 // import Products from '../components/Products'
 // import Infrastructure from '../components/Infrastructure'
@@ -20,11 +22,14 @@ const MatowinPage = () => {
     <div>
       <div className='header_home_blk'>
         <Header />
-        
         </div>
         <Home />
+        <div className='our_infra'>
+          <OurClients />
+        </div>
         <AboutUs />
         <Products />
+        <OurInfrastructure />
     </div>
   )
 }
