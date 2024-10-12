@@ -18,6 +18,7 @@ import Mission from '../components/Missions'
 import AboutPromoters from '../components/AboutPromoters'
 import Training from '../components/Training'
 import WhatsappButton from '../components/WhatsappButton'
+import WorkingEnvironment from '../components/OurMachinery'
 
 const MatowinPage = () => {
   return (
@@ -33,6 +34,7 @@ const MatowinPage = () => {
         <Products />
         <OurInfrastructure />
         <ListMachinery />
+        <WorkingEnvironment />
         <Capabilities />
         <Mission />
         <AboutPromoters />
