@@ -15,7 +15,7 @@
   
   .infrastructures{
       box-shadow: 2px 2px 5px #D3D3D3;
-      max-width: 200px;
+      max-width: 300px;
       border-radius: 8px;
       position: relative;
   }
@@ -36,8 +36,8 @@
     left: 0;
     max-height: 200px;
       min-height: 199px;
-      max-width: 200px;
-      min-width: 199px;
+      max-width:300px;
+      min-width: 300px;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 999;
   }
@@ -45,8 +45,8 @@
   .infrastructure img{
       max-height: 200px;
       min-height: 199px;
-      max-width: 200px;
-      min-width: 199px;
+      max-width: 300px;
+      min-width: 300px;
       box-shadow: 0px 1px 5px #D3D3D3;
       border-radius: 8px;
       background: linear-gradient(#fff7f7, #7a7a7a);
@@ -86,6 +86,30 @@
       opacity: 1;
       transform: translateY(0); /* End position */
     }
+
+    .infrastructure_details button {
+      margin-top: 10px;
+      padding: 5px 10px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .infrastructure_details button:hover {
+      background-color: #0056b3;
+    }
+
+    .infrastructure_ani {
+      margin-bottom: 25px;
+    }
+
+    .infrastructure_details p {
+      text-align: left;
+      margin-top: 5px;
+    }
+    
   
     @media screen and (max-width: 768px) {
       .infrastructure img{
