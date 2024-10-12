@@ -12,11 +12,36 @@
       flex-wrap: wrap;
       justify-content: space-evenly;
   }
+
+  .envi_parent{
+    /* background: #111; */
+    box-shadow: 0 0 30px 0 #11111126;
+    border: 1px solid #E5E5E5;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: fit-content;
+    border-radius: 8px;
+  }
+
+  .envi_child{
+    background: #fff;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 310px;
+    border-radius: 8px;
+  }
   
   .environments{
       box-shadow: 2px 2px 5px #D3D3D3;
       max-width: 300px;
       border-radius: 8px;
+      
   }
   
   .environment img{

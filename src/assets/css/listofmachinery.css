@@ -93,3 +93,17 @@
     color: #fff;
     z-index: 9;
 }
+
+@media screen and (max-width: 768px) {
+
+    .list_of_machinery{
+        display: flex;
+        justify-content: center;
+    }
+
+    .list_machinerys{
+        flex-direction: column;
+        justify-content: center;
+        width: fit-content;
+    }
+}
