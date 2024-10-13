@@ -40,10 +40,17 @@ const Footer = () => {
           <div className='footer_content_change'>
             <h1>Contact</h1>
             <ul>
-            <li><IoCallOutline /> 8310415571 / 9448417135</li>
-            <li><MdOutlineEmail /> test@gamil.com</li>
-            <li><CiLocationOn /> Matowin Techniques NO3, 10th Main, Behind Maruthi Industrial Town,<br />Thigalarapalya Main Road, Peenya 2rd Stage, 3th Phase,<br />
-                  Bangalore - 560058
+            <li><IoCallOutline /> <span>8310415571 / 9448417135</span></li>
+            <li><MdOutlineEmail /> <span>Matowin9@gmail.com</span></li>
+            <li>
+              <div>
+                <CiLocationOn /></div>
+                <div>
+                <span>Matowin Techniques NO3, 10th Main,<br />
+                  Behind Maruthi Industrial Town, Higalarapalya Main Road,<br />
+                  Peenya 2nd Stage, 3rd Phase, Bangalore - 560058<br />
+                </span>
+                </div>
             </li>
             </ul>
           </div>
@@ -52,7 +59,7 @@ const Footer = () => {
     </div>
       <div className="footer_social_media">
         <div className='footer_copy_rights'>
-        <span>Copyright @ 2024 INDO-MIM | All Rights Reserved</span>
+        <span>Copyright @ 2024 Mato-Win | All Rights Reserved</span>
         </div>
         <div className="footer-icons">
             <a href="#" target="_blank">

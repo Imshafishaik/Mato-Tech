@@ -1,6 +1,6 @@
 .footer {
     background-color: #212934;
-    padding: 70px 0;
+    padding: 70px 100px;
     display: flex;
     justify-content: center;
 }
@@ -99,6 +99,7 @@
 
 .footer_content_change li{
     margin-bottom: 12px;
+    display: flex;
 }
 
 .footer_content_change ul{
@@ -124,6 +125,13 @@
     padding: 10px 20px;
     cursor: pointer;
   }
+
+  .footer_content_change span {
+    margin-left: 5px;
+    line-height: 1.6; /* Adjusts space between lines */
+    color: #a5a5a5;   /* Ensures text color consistency */
+}
+
 
 @media screen and (max-width: 768px) {
 

@@ -1,5 +1,5 @@
 .mato_mission{
-    height: 50vh;
+    height: 100%;
     width: 100%;
     padding: 20px 0;
     background-color: #efefef;
@@ -15,7 +15,7 @@
 }
 
 .mato_mission1{
-    height: 53vh;
+    height: 100%;
     width: 100%;
     padding: 20px 0;
     background-color: #efefef;
