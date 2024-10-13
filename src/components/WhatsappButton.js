@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const WhatsappButton = () => {
   return (
     <div className="Whatsapp-Button-Container">
-      <Link to="https://wa.me/+919650062127" target="_blank">
+      <Link to="https://wa.me/+918310415571?text=Hello%20there" target="_blank">
         <img src={WhatsappIcon} alt="" />
       </Link>
     </div>

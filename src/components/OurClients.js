@@ -7,17 +7,6 @@ import "../assets/css/OurClients.css";
 
 const OurClients = () => {
 
-    const [deviceType, setDeviceType] = useState(null);
-
-  useEffect(() => {
-    setDeviceType(
-      typeof navigator !== `undefined` &&
-        navigator?.userAgent?.toLowerCase()?.includes("mobile")
-        ? "mobile"
-        : "desktop"
-    );
-  });
-  console.log(".............deviceType",deviceType);
   let clients = [
     {
         name: 'KEMS',

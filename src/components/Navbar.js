@@ -7,10 +7,11 @@ import { useNavigate } from 'react-router-dom';
 const Navbar = () => {
     const [isMenu,setIsMenu] = useState(false);
 
-    const navigate = useNavigate()
 
     const handleContactUs = () => {
-      navigate('/contact')
+      // navigate('/contact')
+
+      window.open("https://wa.me/+918310415571?text=Hello%20there");
     }
   return (
     <div className='matowin_navbar'>
