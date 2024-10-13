@@ -23,6 +23,16 @@
     left: 28px;
 }
 
+.certificate h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.certificate_img{
+  display: flex;
+  justify-content: center;
+}
+
 .Whatsapp-Button-Container a img{
   height: 70px;
   width: 70px;
@@ -43,5 +53,23 @@
 @media screen and (max-width:768px) {
   .our_infra{
     padding: 0 0 80px 0;
+  }
+
+  /* .certificate{
+    width: 80vw;
+  } */
+
+  .certificate h1{
+    text-align: center;
+  }
+
+  .certificate_img{
+    padding: 10px;
+  }
+
+  .certificate_img img{
+    /* display: flex;
+    justify-content: center; */
+    width: 50vw;
   }
 }
