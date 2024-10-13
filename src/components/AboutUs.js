@@ -1,11 +1,36 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import "../assets/css/aboutus.css";
 import profilePdf from "../assets/images/matowin-final2.pdf"
+import bgVideo from "../assets/images/matovid1.mp4"
 
 
 const AboutUs = () => {
+
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    const savedTime = localStorage.getItem('videoTime');
+
+    if (savedTime) {
+      video.currentTime = savedTime;
+    }
+
+    const handleTimeUpdate = () => {
+      localStorage.setItem('videoTime', video.currentTime);
+    };
+
+    video.addEventListener('timeupdate', handleTimeUpdate);
+
+    return () => {
+      video.removeEventListener('timeupdate', handleTimeUpdate);
+    };
+  }, []);
+
   return (
     <div className='about_us_blk'>
+      
+      <div className='about_details'>
       <div className='about_us_heading'>
         <h1>About Us</h1>
       </div>
@@ -17,6 +42,12 @@ const AboutUs = () => {
         <div className='view_company_profile'>
         <a href={profilePdf} target='_blank'>View Our Company Profile</a>
         </div>
+        </div>
+        <video id="background-video" loop autoPlay muted ref={videoRef}>
+        <source src={bgVideo} type="video/mp4" />
+        <source src={bgVideo} type="video/ogg" />
+        Your browser does not support the video tag.    
+      </video>
     </div>
   )
 }

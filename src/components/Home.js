@@ -3,10 +3,11 @@ import { IoIosArrowDropright } from "react-icons/io";
 import { IoIosArrowDropleft } from "react-icons/io";
 import Slider from 'react-slick';
 import "../assets/css/Home.css"
-import infra8 from "../assets/images/infra8.jpg"
-import infra10 from "../assets/images/infra10.jpeg"
-import infra11 from "../assets/images/infra11.jpg"
-import infra12 from "../assets/images/infra12.jpg"
+import slider1 from "../assets/images/slider1.jpg"
+import slider2 from "../assets/images/slider2.jpg"
+import slider3 from "../assets/images/slider3.jpeg"
+import slider5 from "../assets/images/slider5.jpg"
+
 
 const Home = () => {
 
@@ -39,16 +40,16 @@ const Home = () => {
   return (
     <Slider {...settings}>
       <div className="slider_img">
-        <img src={infra8} alt='infra8' />
+        <img src={slider1} alt='infra8' />
       </div>
       <div className="slider_img">
-        <img src={infra10} alt='infra10' />
+        <img src={slider2} alt='infra10' />
       </div>
       <div className="slider_img">
-        <img src={infra11} alt='infra11' />
+        <img src={slider3} alt='infra11' />
       </div>
       <div className="slider_img">
-        <img src={infra12} alt='infra12' />
+        <img src={slider5} alt='infra12' />
       </div>
     </Slider>
   )

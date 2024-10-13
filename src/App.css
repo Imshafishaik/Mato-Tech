@@ -13,6 +13,20 @@
   border-radius: 0 0 150px 150px;
 }
 
+.App{
+  position: relative;
+}
+
+.Whatsapp-Button-Container{
+  position: fixed;
+    bottom: 90px;
+    left: 28px;
+}
+
+.Whatsapp-Button-Container a img{
+  height: 70px;
+  width: 70px;
+}
 
 .our_infra{
   display: flex;

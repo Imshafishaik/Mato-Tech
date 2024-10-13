@@ -40,7 +40,7 @@ const MatowinPage = () => {
         <AboutPromoters />
         <Training />
         <Footer />
-        {/* <WhatsappButton /> */}
+        <WhatsappButton />
     </div>
   )
 }

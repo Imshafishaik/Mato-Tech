@@ -80,4 +80,8 @@
       max-width: 300px;
       border-radius: 8px;
     }
+
+    .product{
+      margin-bottom: 12px;
+    }
   }
