@@ -17,6 +17,7 @@ const ListMachinery = () => {
     <div className='list_machinery'>
       {/* <img src={Machinery} /> */}
       <h1>List of Machinery</h1>
+      <div className='list_of_machinery'>
       <div className='list_machinerys'>
         <div className='list_names'>
           <div className='mimage'>
@@ -111,6 +112,7 @@ const ListMachinery = () => {
               <img src={mname9} alt='mname1' />
             </div></div>
         </div>
+      </div>
       </div>
     </div>
   )

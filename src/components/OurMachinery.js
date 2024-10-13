@@ -60,12 +60,16 @@ const WorkingEnvironment = () => {
       {rooms?.map((item,i)=>{
         return (
           <div key={i} className='environments'>
+            <div className='envi_parent'>
+              <div className='envi_child'>
             <div className='environment'>
             <img src={item.image} alt={item.name} />
                 <div className='environment_details'>
                     <h3>{item.name}</h3>
                     <p>{item.description}</p>
                 </div>
+            </div>
+            </div>
             </div>
           </div>
         )

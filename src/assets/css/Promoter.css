@@ -37,7 +37,7 @@
 }
 
 .mato_missions{
-    height: 50vh;
+    height: 40vh;
     width: 100%;
     padding: 20px 0;
     background-color: #fff;
@@ -61,6 +61,7 @@
 }
 
 .mission_content2 p{
+    margin-top: 10px;
     color: black;
 }
 
