@@ -126,7 +126,7 @@ const OurInfrastructure = () => {
   };
 
   return (
-    <div className='infrastructure_list' ref={infrastructureRef}>
+    <div className='infrastructure_list' id='infra' ref={infrastructureRef}>
       
       <h1>Our Infrastructure</h1>
       <div className='infrastructure_lists'>

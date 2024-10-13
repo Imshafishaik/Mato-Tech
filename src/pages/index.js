@@ -19,6 +19,7 @@ import AboutPromoters from '../components/AboutPromoters'
 import Training from '../components/Training'
 import WhatsappButton from '../components/WhatsappButton'
 import WorkingEnvironment from '../components/OurMachinery'
+import ProductsData from '../components/ProductsData'
 
 const MatowinPage = () => {
   return (
@@ -32,6 +33,7 @@ const MatowinPage = () => {
         </div>
         <AboutUs />
         <Products />
+        <ProductsData />
         <OurInfrastructure />
         <ListMachinery />
         <WorkingEnvironment />

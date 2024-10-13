@@ -38,7 +38,7 @@ const Home = () => {
       };
 
   return (
-    <Slider {...settings}>
+    <Slider {...settings} id="home">
       <div className="slider_img">
         <img src={slider1} alt='infra8' />
       </div>

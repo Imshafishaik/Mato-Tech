@@ -34,26 +34,26 @@ const WorkingEnvironment = () => {
     let rooms = [
         {
           id:1,
-          name: 'Environment 1',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+          // name: 'Environment 1',
+          // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
           image: Room1,
         },
         {
           id:2,
-          name: 'Environment 2',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+          // name: 'Environment 2',
+          // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
           image: Room2,
         },
         {
           id:3,
-          name: 'Environment 3',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+          // name: 'Environment 3',
+          // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
           image: Room3,
         }
       ]
 
   return (
-    <div className='environment_list' ref={environmentRef}>
+    <div className='environment_list' id='machinery' ref={environmentRef}>
       
       <h1>Our Working Environment</h1>
       <div className='environment_lists'>

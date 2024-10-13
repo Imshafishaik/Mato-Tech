@@ -68,10 +68,6 @@
     transform: scale(1.2);
   }
   
-  .environment_details{
-      padding: 20px;
-  }
-  
   .environment {
       background-color: #fff;
       border: 1px solid #E5E5E5;

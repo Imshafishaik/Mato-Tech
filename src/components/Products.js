@@ -37,44 +37,44 @@ const Products = () => {
   let products = [
     {
       id:1,
-      name: 'Product 1',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      // name: 'Product 1',
+      // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       image: Product1,
     },
     {
       id:2,
-      name: 'Product 2',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      // name: 'Product 2',
+      // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       image: Product2,
     },
     {
       id:3,
-      name: 'Product 3',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      // name: 'Product 3',
+      // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       image: Product3,
     },
     {
       id:4,
-      name: 'Product 4',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      // name: 'Product 4',
+      // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       image: Product4,
     },
     {
       id:5,
-      name: 'Product 5',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      // name: 'Product 5',
+      // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       image: Product5,
     },
     {
       id:6,
-      name: 'Product 6',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      // name: 'Product 6',
+      // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       image: Product6,
     }
   ]
 
   return (
-    <div className='products_list' ref={productsRef}>
+    <div className='products_list' id='products' ref={productsRef}>
       
       <h1>Our Products</h1>
       <div className='products_lists'>
@@ -83,10 +83,10 @@ const Products = () => {
           <div key={i} className='products products_ani'>
             <div className='product'>
             <img src={item.image} alt={item.name} />
-            <div className='products_details'>
+            {/* <div className='products_details'>
             <h3>{item.name}</h3>
             <p>{item.description}</p>
-            </div>
+            </div> */}
             </div>
           </div>
         )

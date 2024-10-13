@@ -1,0 +1,17 @@
+
+.products_data_blk{
+    padding: 50px;
+    box-shadow: inset 0 0 48px 2px #282a2d;
+    /* background-color: #f2f3f5; */
+    width: 100%;
+    /* position: relative; */
+}
+
+.products_data_blk h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.produtcs_details_data{
+    font-size: 25px;
+}
