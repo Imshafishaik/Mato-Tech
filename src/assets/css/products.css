@@ -15,15 +15,15 @@
 
 .products{
     box-shadow: 2px 2px 5px #D3D3D3;
-    max-width: 200px;
+    max-width: 300px;
     border-radius: 8px;
 }
 
 .product img{
-    max-height: 200px;
-    min-height: 199px;
-    max-width: 200px;
-    min-width: 199px;
+    max-height: 300px;
+    min-height: 299px;
+    max-width: 300px;
+    min-width: 299px;
     box-shadow: 0px 1px 5px #D3D3D3;
     border-radius: 8px;
     background: linear-gradient(#fff7f7, #7a7a7a);
