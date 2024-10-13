@@ -74,10 +74,10 @@ const ListMachinery = () => {
             </div>
             </div>
           <div className='mimage'>
-            <img src={mname8} alt='mname1' />
+            <img src={mname9} alt='mname1' />
             <p>INDUCTION HARDENING</p>
             <div className='minnerimage'>
-              <img src={mname8} alt='mname1' />
+              <img src={mname9} alt='mname1' />
             </div>
             </div>
         </div>

@@ -16,8 +16,8 @@ import "../assets/css/infrastructure.css"
 const OurInfrastructure = () => {
 
     const infrastructureRef = useRef(null);
-    const [readMore, setReadMore] = useState({});
-
+    const [readMore, setReadMore] = useState([]);
+    console.log("...........readMore",readMore);
   useEffect(() => {
     const products = infrastructureRef.current.querySelectorAll('.infrastructures');
 
@@ -119,11 +119,20 @@ const OurInfrastructure = () => {
 
 
   const handleReadMore = (id) => {
-    setReadMore((prevState) => ({
+    console.log("............id",id);
+    setReadMore((prevState) => ([
       ...prevState,
-      [id]: !prevState[id],
-    }));
+       id
+    ]));
   };
+
+  const handleReadLess=(id)=>{
+   let a = readMore?.filter((value)=>value != id)
+   setReadMore(a)
+  }
+
+  
+  
 
   return (
     <div className='infrastructure_list' id='infra' ref={infrastructureRef}>
@@ -131,8 +140,7 @@ const OurInfrastructure = () => {
       <h1>Our Infrastructure</h1>
       <div className='infrastructure_lists'>
       {infrastructures?.map((item, i) => {
-        const isReadMore = readMore[item.id];
-        const descriptionToShow = isReadMore ? item.description : item.description.slice(0, 100) + "...";
+        
         
         return (
           <div key={i} className='infrastructures infrastructure_ani'>
@@ -141,10 +149,13 @@ const OurInfrastructure = () => {
               <div className='story-overlay'></div>
               <div className='infrastructure_details'>
                 <h4>{item.name}</h4>
-                <p dangerouslySetInnerHTML={{ __html: descriptionToShow }} />
-                <button onClick={() => handleReadMore(item.id)}>
-                  {isReadMore ? 'Read Less' : 'Read More'}
-                </button>
+                <p dangerouslySetInnerHTML={{ __html: readMore?.includes(item.id) ? item.description : item.description?.slice(0,100)}} />
+                {readMore?.includes(item.id) ? <button onClick={() => handleReadLess(item.id)}>
+                  Read Less
+                </button> : <button onClick={() => handleReadMore(item.id)}>
+                  Read More
+                </button>}
+                
               </div>
             </div>
           </div>

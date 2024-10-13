@@ -20,7 +20,7 @@
       position: relative;
   }
 
-  .story-overlay{
+  /* .story-overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -30,7 +30,6 @@
   }
 
   .story-overlay:hover{
-    /* display: block; */
     position: absolute;
     top: 0;
     left: 0;
@@ -40,7 +39,7 @@
       min-width: 300px;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 999;
-  }
+  } */
   
   .infrastructure img{
       max-height: 200px;

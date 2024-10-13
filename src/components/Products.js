@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Product1 from "../assets/images/product1.png"
-import Product2 from "../assets/images/product2.png"
+import Product2 from "../assets/images/product8.png"
 import Product3 from "../assets/images/product3.png"
 import Product4 from "../assets/images/product4.png"
 import Product5 from "../assets/images/product5.png"

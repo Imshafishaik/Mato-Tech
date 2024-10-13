@@ -72,4 +72,10 @@
     justify-content: center; */
     width: 50vw;
   }
+
+  .Whatsapp-Button-Container{
+    position: fixed;
+      bottom: 50px;
+      left: 28px;
+  }
 }
