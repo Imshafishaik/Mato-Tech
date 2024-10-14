@@ -43,7 +43,7 @@ const AboutUs = () => {
         <a href={profilePdf} target='_blank'>View Our Company Profile</a>
         </div>
         </div>
-        <video id="background-video" loop autoPlay muted ref={videoRef}>
+        <video id="background-video" loop autoPlay muted ref={videoRef} playsInline preload="auto">
         <source src={bgVideo} type="video/mp4" />
         <source src={bgVideo} type="video/ogg" />
         Your browser does not support the video tag.    
