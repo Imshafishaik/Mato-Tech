@@ -7,7 +7,7 @@ const ProductsData = () => {
     <h1>Our More Products</h1>
     <div className='produtcs_details_data'>
       SHACKLE PINS / COTTER PINS / KING PINS ,SG Iron, Cast Iron, Alloy Steels, Investment Castings, and Aluminium Castings
-      Bushes, Sleeves, Washers, Earth mover's components
+      Bushes, Sleeves, Washers, Earth mover's components, Die Makers
       </div>
     </div>
   )

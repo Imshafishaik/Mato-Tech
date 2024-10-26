@@ -93,12 +93,12 @@ const Products = () => {
       // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       image: Product9,
     },
-    {
-      id:10,
-      // name: 'Product 6',
-      // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      image: Product10,
-    }
+    // {
+    //   id:10,
+    //   // name: 'Product 6',
+    //   // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    //   image: Product10,
+    // }
   ]
 
   return (

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dcbaa75a.css",
-    "main.js": "/static/js/main.59403896.js",
+    "main.js": "/static/js/main.63f68bca.js",
     "static/media/matowin-tech.pdf": "/static/media/matowin-tech.fd9cad197da31c69620a.pdf",
     "static/media/slider1.jpg": "/static/media/slider1.8b248a875a0a8863358f.jpg",
     "static/media/slider5.jpg": "/static/media/slider5.56ac69cecbbb7e70b46d.jpg",
@@ -23,8 +23,11 @@
     "static/media/mname4.png": "/static/media/mname4.dc31bf0d1af965650455.png",
     "static/media/mname2.png": "/static/media/mname2.268cf9d6ed6094cbea44.png",
     "static/media/mname3.png": "/static/media/mname3.3ab65eeb509f658a9594.png",
+    "static/media/product9.jpeg": "/static/media/product9.413723e6b1fb83428340.jpeg",
     "static/media/product1.jpeg": "/static/media/product1.49cc714a1e4f5ed67a79.jpeg",
     "static/media/infra12.jpg": "/static/media/infra12.1a9c50d862194d6885e3.jpg",
+    "static/media/product7.jpeg": "/static/media/product7.9d1b21cdafc1c2a01eb5.jpeg",
+    "static/media/product10.jpeg": "/static/media/product10.8a630a240b0398403874.jpeg",
     "static/media/infra5.jpeg": "/static/media/infra5.f042f2fd12eab60aa362.jpeg",
     "static/media/product6.jpeg": "/static/media/product6.d0b6225acc4d5ec3722b.jpeg",
     "static/media/infra10.jpeg": "/static/media/infra10.e6e1552ee87d79e11441.jpeg",
@@ -37,6 +40,7 @@
     "static/media/mname1.jpg": "/static/media/mname1.987a501ff804e410c831.jpg",
     "static/media/client2.jpeg": "/static/media/client2.bcdc0dbd0ae131d6c4db.jpeg",
     "static/media/product3.jpg": "/static/media/product3.cf262eb8d7fff861426e.jpg",
+    "static/media/product8.jpeg": "/static/media/product8.d89d052cb2374e2cbd99.jpeg",
     "static/media/infra2.jpeg": "/static/media/infra2.f82281e57ae622035c64.jpeg",
     "static/media/mname6.jpg": "/static/media/mname6.64a00c4b81af1ae3bdf2.jpg",
     "static/media/mname7.jpg": "/static/media/mname7.64a00c4b81af1ae3bdf2.jpg",
@@ -49,10 +53,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.dcbaa75a.css.map": "/static/css/main.dcbaa75a.css.map",
-    "main.59403896.js.map": "/static/js/main.59403896.js.map"
+    "main.63f68bca.js.map": "/static/js/main.63f68bca.js.map"
   },
   "entrypoints": [
     "static/css/main.dcbaa75a.css",
-    "static/js/main.59403896.js"
+    "static/js/main.63f68bca.js"
   ]
 }
