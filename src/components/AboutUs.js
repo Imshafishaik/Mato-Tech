@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import "../assets/css/aboutus.css";
-import profilePdf from "../assets/images/matowin-final2.pdf"
+import profilePdf from "../assets/images/matowin-tech.pdf"
 import bgVideo from "../assets/images/matovid1.mp4"
 
 

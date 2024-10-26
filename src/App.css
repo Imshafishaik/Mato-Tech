@@ -30,7 +30,13 @@
 
 .certificate_img{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.certificate_img img{
+  width: 600px;
+  height: auto;
 }
 
 .Whatsapp-Button-Container a img{
@@ -65,12 +71,13 @@
 
   .certificate_img{
     padding: 10px;
+    flex-direction: column;
   }
 
   .certificate_img img{
     /* display: flex;
     justify-content: center; */
-    width: 50vw;
+    width: 80vw;
   }
 
   .Whatsapp-Button-Container{
