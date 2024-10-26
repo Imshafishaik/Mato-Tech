@@ -5,7 +5,7 @@ import newcerti from "../assets/images/newcerti.jpg";
 const Certificate = () => {
   return (
     <div className='certificate'>
-        <h1>Certificate : MSME</h1>
+        <h1>Certificates</h1>
         <div className='certificate_img'>
             <img src={certificate} />
             <img src={newcerti} />
