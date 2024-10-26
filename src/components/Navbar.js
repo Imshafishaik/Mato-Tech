@@ -24,6 +24,9 @@ const Navbar = () => {
             <a href='#home'>Home</a>
         </li>
         <li>
+            <a href='#about_us_blk'>About Us</a>
+        </li>
+        <li>
             <a href='#infra'>Our Infrastructure</a>
         </li>
         <li>

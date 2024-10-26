@@ -28,7 +28,7 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <div className='about_us_blk'>
+    <div className='about_us_blk' id = "about_us_blk">
       
       <div className='about_details'>
       <div className='about_us_heading'>
