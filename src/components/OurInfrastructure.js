@@ -92,8 +92,8 @@ const OurInfrastructure = () => {
     },
     {
       id: 9,
-      name: 'HEAT TREATING',
-      description: '<b>Precision Heat Treating:</b><br> Our heat treating service enhances material properties through controlled heating and cooling processes, improving hardness, strength, and durability.<br><br><b>Versatile Applications:</b><br> Suitable for a variety of materials, including steel, aluminum, and titanium, our heat treating is ideal for components in automotive, aerospace, and manufacturing industries.<br><br><b>Use Case:</b><br> Perfect for preparing truck spare parts such as gears, axles, and shafts, ensuring optimal performance and longevity in heavy-duty applications.',
+      name: 'INDUCTION HARDENING',
+      description: '<b>Precision HARDENING:</b><br> Our heat treating service enhances material properties through controlled heating and cooling processes, improving hardness, strength, and durability.<br><br><b>Versatile Applications:</b><br> Suitable for a variety of materials, including steel, aluminum, and titanium, our heat treating is ideal for components in automotive, aerospace, and manufacturing industries.<br><br><b>Use Case:</b><br> Perfect for preparing truck spare parts such as gears, axles, and shafts, ensuring optimal performance and longevity in heavy-duty applications.',
       image: Infra9,
     },
     {

@@ -5,6 +5,10 @@ import Product3 from "../assets/images/product3.jpg"
 import Product4 from "../assets/images/product4.jpeg"
 import Product5 from "../assets/images/product5.jpeg"
 import Product6 from "../assets/images/product6.jpeg"
+import Product7 from "../assets/images/product7.jpeg"
+import Product8 from "../assets/images/product8.jpeg"
+import Product9 from "../assets/images/product9.jpeg"
+import Product10 from "../assets/images/product10.jpeg"
 import "../assets/css/products.css";
 
 const Products = () => {
@@ -70,7 +74,31 @@ const Products = () => {
       // name: 'Product 6',
       // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       image: Product6,
-    }
+    },
+    {
+      id:7,
+      // name: 'Product 6',
+      // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      image: Product7,
+    },
+    {
+      id:8,
+      // name: 'Product 6',
+      // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      image: Product8,
+    },
+    {
+      id:9,
+      // name: 'Product 6',
+      // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      image: Product9,
+    },
+    // {
+    //   id:10,
+    //   // name: 'Product 6',
+    //   // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    //   image: Product10,
+    // }
   ]
 
   return (

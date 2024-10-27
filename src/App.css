@@ -85,4 +85,11 @@
       bottom: 50px;
       left: 28px;
   }
+
+  .certificate_img{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 30px;
+  }
 }
