@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.dcbaa75a.css",
-    "main.js": "/static/js/main.63f68bca.js",
-    "static/media/matowin-tech.pdf": "/static/media/matowin-tech.fd9cad197da31c69620a.pdf",
+    "main.js": "/static/js/main.6384172c.js",
+    "static/media/mato.pdf": "/static/media/mato.78ac2ff268e41b8be3a1.pdf",
     "static/media/slider1.jpg": "/static/media/slider1.8b248a875a0a8863358f.jpg",
     "static/media/slider5.jpg": "/static/media/slider5.56ac69cecbbb7e70b46d.jpg",
     "static/media/slider2.jpg": "/static/media/slider2.d02940c81cbc2b38a6ba.jpg",
@@ -53,10 +53,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.dcbaa75a.css.map": "/static/css/main.dcbaa75a.css.map",
-    "main.63f68bca.js.map": "/static/js/main.63f68bca.js.map"
+    "main.6384172c.js.map": "/static/js/main.6384172c.js.map"
   },
   "entrypoints": [
     "static/css/main.dcbaa75a.css",
-    "static/js/main.63f68bca.js"
+    "static/js/main.6384172c.js"
   ]
 }

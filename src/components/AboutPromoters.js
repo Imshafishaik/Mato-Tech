@@ -19,15 +19,13 @@ const AboutPromoters = () => {
             <div className='mission_dividers'></div>
             <div className='mission_content2'>
                 <h2>Prashanth E N:</h2>
-                <p>An accomplished architecture graduate, has successfully established and
-            managed ventures in land development and other sectors. He currently applies
-            his strategic expertise as a Purchase Officer at Tata Magna Seating Pvt. Ltd. in
-            Chinchwad, Pimpri, Pune.</p>
+                <p>Prashanth E N, a proficient Mechanical Engineering graduate, has successfully led ventures in land development and diverse sectors. He now leverages his strategic acumen as a Purchase Officer at Tata Magna Seating Pvt. Ltd., Chinchwad, Pimpri, Pune.</p>
             </div>
             <div className='mission_dividers'></div>
             <div className='mission_content2'>
                 <h2>Prashanth N J:</h2>
-                <p>Prashanth E N, a proficient Mechanical Engineering graduate, has successfully led ventures in land development and diverse sectors. He now leverages his strategic acumen as a Purchase Officer at Tata Magna Seating Pvt. Ltd., Chinchwad, Pimpri, Pune.</p>
+                <p>He is a graduate of architecture and has developed many successful
+                businesses like mining, Trading & Real estate.</p>
             </div>
         </div>
         </div>
