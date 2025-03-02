@@ -28,13 +28,13 @@ const ListMachinery = () => {
             </div>
           </div>
 
-          <div className='mimage'>
+          {/* <div className='mimage'>
             <img src={mname2} alt='mname1' />
             <p>VMC MILLING 3 AXIS</p>
           <div className='minnerimage'>
               <img src={mname2} alt='mname1' />
             </div>
-            </div>
+            </div> */}
           <div className='mimage'>
             <img src={mname3} alt='mname1' />
             <p>VMC MILLING 4 AXIS</p>
@@ -42,23 +42,27 @@ const ListMachinery = () => {
               <img src={mname3} alt='mname1' />
             </div>
             </div>
-          <div className='mimage'>
+
+            <div className='mimage'><img src={mname9} alt='mname1' /><p>CUT-OFF MACHINE</p><div className='minnerimage'>
+              <img src={mname9} alt='mname1' />
+            </div></div>
+          {/* <div className='mimage'>
             <img src={mname4} alt='mname1' />
             <p>VMC MILLING 5 AXIS</p>
             <div className='minnerimage'>
               <img src={mname4} alt='mname1' />
             </div>
-            </div>
+            </div> */}
         </div>
 
         <div className='list_names'>
-          <div className='mimage'>
+          {/* <div className='mimage'>
             <img src={mname5} alt='mname1' />
             <p>WEIR CUT EDM</p>
             <div className='minnerimage'>
               <img src={mname5} alt='mname1' />
             </div>
-            </div>
+            </div> */}
           <div className='mimage'>
             <img src={mname6} alt='mname1' />
             <p>CENTRAL LESS GRINDING</p>
@@ -66,13 +70,13 @@ const ListMachinery = () => {
               <img src={mname6} alt='mname1' />
             </div>
             </div>
-          <div className='mimage'>
+          {/* <div className='mimage'>
             <img src={mname7} alt='mname1' />
             <p>CYLINDRICAL GRINDING</p>
             <div className='minnerimage'>
               <img src={mname7} alt='mname1' />
             </div>
-            </div>
+            </div> */}
           <div className='mimage'>
             <img src={mname9} alt='mname1' />
             <p>INDUCTION HARDENING</p>
@@ -90,12 +94,11 @@ const ListMachinery = () => {
           <div className='mimage'><img src={mname1} alt='mname1' /><p>MANUAL DRILLING MACHINES</p><div className='minnerimage'>
               <img src={mname1} alt='mname1' />
             </div></div>
-          <div className='mimage'><img src={mname3} alt='mname1' /><p>LATE MACHINE</p><div className='minnerimage'>
+          {/* <div className='mimage'><img src={mname3} alt='mname1' /><p>LATE MACHINE</p><div className='minnerimage'>
               <img src={mname3} alt='mname1' />
-            </div></div>
-          <div className='mimage'><img src={mname9} alt='mname1' /><p>CUT-OFF MACHINE</p><div className='minnerimage'>
-              <img src={mname9} alt='mname1' />
-            </div></div>
+            </div>
+            </div> */}
+          
         </div>
 
         <div className='list_names'>
@@ -105,12 +108,12 @@ const ListMachinery = () => {
           <div className='mimage'><img src={mname6} alt='mname1' /><p>NUMBER PUNCHING MACHINES</p><div className='minnerimage'>
               <img src={mname6} alt='mname1' />
             </div></div>
-          <div className='mimage'><img src={mname3} alt='mname1' /><p>DRO MILLING</p><div className='minnerimage'>
+          {/* <div className='mimage'><img src={mname3} alt='mname1' /><p>DRO MILLING</p><div className='minnerimage'>
               <img src={mname3} alt='mname1' />
-            </div></div>
-          <div className='mimage'><img src={mname9} alt='mname1' /><p>BANDS ARE CUTTING MACHINES</p><div className='minnerimage'>
+            </div></div> */}
+          {/* <div className='mimage'><img src={mname9} alt='mname1' /><p>BANDS ARE CUTTING MACHINES</p><div className='minnerimage'>
               <img src={mname9} alt='mname1' />
-            </div></div>
+            </div></div> */}
         </div>
       </div>
       </div>
